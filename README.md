@@ -1,2 +1,12 @@
-# Amazon-Store-Sales-Forecasting-Inventory-Optimization
-Worked with a USA client who owns an Amazon store to predict sales and optimize inventory, aiming to increase sales. Project completed in 1 month and is fully functional with ML-based forecasting, evaluation, and automated inventory reports.
+# Amazon Store Sales Forecasting & Inventory Optimization
+
+Predict future sales and optimize inventory for an Amazon store using ML. Includes data preprocessing, RandomForest forecasting, evaluation, and inventory report generation.
+
+## Quickstart
+1. python -m venv venv
+2. source venv/bin/activate (Windows: venv\Scripts\activate)
+3. pip install -r requirements.txt
+4. python src/train_forecast_model.py
+5. python src/evaluate_model.py
+6. python src/inventory_optimizer.py
+7. python app.py
